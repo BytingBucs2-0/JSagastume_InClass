@@ -1,0 +1,131 @@
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ git config --global user.name "Jorge Sagastume"
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ git config --global user.email "jsagastume2@bucs.fsw.edu"
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ pwd
+/f/PortableApps/HTML2/RepProjects
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ ls
+Chapter1/  JorgeSagastume_1-26-17/  jsagastume_HelloWorld/
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ git clone https://github.com/BytingBucs2-0/JSagastume_InClass
+Cloning into 'JSagastume_InClass'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects
+$ cd JSagastume_InClass
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git add index.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git commit -m "Add index file"
+[master 2c1d0ef] Add index file
+ 1 file changed, 20 insertions(+)
+ create mode 100644 index.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git push
+Username for 'https://github.com': jorgebluth
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 466 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/BytingBucs2-0/JSagastume_InClass
+   5aae863..2c1d0ef  master -> master
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        secondPage.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git add secondPage.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git commit -m "Add Second HTML Page"
+[master 72292d8] Add Second HTML Page
+ 1 file changed, 21 insertions(+)
+ create mode 100644 secondPage.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git push
+Username for 'https://github.com': jorgebluth
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 504 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/BytingBucs2-0/JSagastume_InClass
+   2c1d0ef..72292d8  master -> master
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        thirdPage.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git add thirdPage.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git commit -m "Add third Page"
+[master 6cceb97] Add third Page
+ 1 file changed, 20 insertions(+)
+ create mode 100644 thirdPage.html
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ git push
+Username for 'https://github.com': jorgebluth
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 458 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local objects.
+To https://github.com/BytingBucs2-0/JSagastume_InClass
+   72292d8..6cceb97  master -> master
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_                                                                                                    InClass (master)
+$ ^C
+
+LE-K127-ST@LE-K127-ST-F64R MINGW64 /f/PortableApps/HTML2/RepProjects/JSagastume_InClass (master)
+$
